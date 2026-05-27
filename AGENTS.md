@@ -12,7 +12,7 @@ Cílem webu je působit moderně, sebevědomě, čistě, osobitě a kreativně. 
 
 Aktuální pracovní složka je tento GitHub repozitář:
 
-C:\Users\capek\OneDrive\Plocha\honzacapek.cz
+C:\Projects\honzacapek.cz
 
 Tento repozitář je jediný zdroj pravdy pro web.
 
@@ -36,7 +36,7 @@ Nepřidávej React, Next.js, Tailwind, build proces, bundlery ani externí kniho
 ## Pravidla práce
 
 - Pracuj vždy v aktuálním Git repozitáři:
-  C:\Users\capek\OneDrive\Plocha\honzacapek.cz
+  C:\Projects\honzacapek.cz
 - Neměň layout, viditelné texty, CSS ani JS mimo rozsah aktuálního zadání. Pokud by úprava vyžadovala zásah mimo zadání, nejdřív se zeptej.
 - Neodstraňuj existující meta tagy, OG tagy, obrázky, analytické prvky ani SEO prvky bez výslovného zadání.
 - Nepřidávej zbytečné soubory, knihovny ani složitou strukturu.
@@ -71,21 +71,23 @@ Po každé úpravě:
    - co přesně se změnilo,
    - zda je změna bezpečná k nasazení.
 
-3. Před commitem a pushem ověř, že pracuješ na správné větvi, typicky main.
-
-4. Commit ani push nedělej bez výslovného potvrzení uživatele.
-
-5. Až uživatel potvrdí, proveď:
-   - git add .
-   - git commit -m "stručný popis změny"
+3. Nedělej:
+   - git add
+   - git commit
    - git push
 
-6. Po pushi připomeň, že Vercel pravděpodobně automaticky spustí deploy.
+4. Commit a push dělá uživatel ručně přes GitHub Desktop nebo PowerShell.
+
+5. Po dokončení úprav uživateli připomeň:
+   - aby změny zkontroloval,
+   - commitnul,
+   - pushnul na GitHub,
+   - a ověřil deploy na Vercelu.
+
+6. Pokud navrhuješ commit message, ať je krátká, věcná a v angličtině.
 
 ## Preferovaný styl odpovědí
 
 Odpovídej stručně, prakticky a srozumitelně.
 Nevysvětluj zbytečně obecnou teorii.
 Když je potřeba rozhodnutí, doporuč jednu variantu a jasně řekni proč.
-
-Poznámka: Tento soubor slouží jako výchozí instrukce pro Codex při práci na webu honzacapek.cz.
