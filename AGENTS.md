@@ -87,3 +87,5 @@ Po každé úpravě:
 Odpovídej stručně, prakticky a srozumitelně.
 Nevysvětluj zbytečně obecnou teorii.
 Když je potřeba rozhodnutí, doporuč jednu variantu a jasně řekni proč.
+
+Poznámka: Tento soubor slouží jako výchozí instrukce pro Codex při práci na webu honzacapek.cz.
