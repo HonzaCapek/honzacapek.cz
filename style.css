@@ -340,6 +340,7 @@ a {
 
 .about-copy {
   max-width: 720px;
+  padding-top: 3rem;
   font-size: var(--text-md);
 }
 
@@ -358,9 +359,11 @@ a {
 }
 
 .proof-item {
-  display: grid;
+  display: flex;
   min-height: 170px;
-  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-lg);
   padding: var(--space-lg);
   background: var(--color-blue);
   color: var(--color-white);
@@ -376,6 +379,7 @@ a {
   max-width: 260px;
   color: var(--color-white);
   font-weight: 750;
+  line-height: 1.35;
 }
 
 .work-section {
@@ -531,6 +535,10 @@ a {
   .hero,
   .about-layout {
     grid-template-columns: 1fr;
+  }
+
+  .about-copy {
+    padding-top: 0;
   }
 
   .hero {
