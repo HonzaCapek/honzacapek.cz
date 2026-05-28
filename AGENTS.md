@@ -78,13 +78,16 @@ Po každé úpravě:
 
 4. Commit a push dělá uživatel ručně přes GitHub Desktop nebo PowerShell.
 
-5. Po dokončení úprav uživateli připomeň:
-   - aby změny zkontroloval,
-   - commitnul,
-   - pushnul na GitHub,
-   - a ověřil deploy na Vercelu.
+5. Po dokončení úprav uživateli napiš:
+   - stručné shrnutí změny,
+   - doporučený název commitu pro GitHub Desktop do pole „Summary required“,
+   - větu: „Můžeš provést commit a push.“
 
-6. Pokud navrhuješ commit message, ať je krátká, věcná a v angličtině.
+6. Doporučená commit message musí být krátká, věcná a v angličtině. Například:
+   - Update project instructions
+   - Fix menu tracking
+   - Add case study click tracking
+   - Update SEO metadata
 
 ## Preferovaný styl odpovědí
 
