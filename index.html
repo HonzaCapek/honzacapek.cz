@@ -36,12 +36,83 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Honza Čapek",
-  "url": "https://www.honzacapek.cz/",
-  "jobTitle": "Marketingový stratég a manažer",
-  "sameAs": [
-    "https://cz.linkedin.com/in/honza-capek"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.honzacapek.cz/#person",
+      "name": "Honza Čapek",
+      "url": "https://www.honzacapek.cz/",
+      "email": "ahoj@honzacapek.cz",
+      "jobTitle": "Marketingový stratég",
+      "description": "Marketingový stratég, který propojuje strategii, kreativitu a realizaci. Má zkušenosti z agentur, mediálního domu i ze strany značky a pomáhá značkám najít smysluplný směr komunikace.",
+      "sameAs": [
+        "https://cz.linkedin.com/in/honza-capek"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.honzacapek.cz/#website",
+      "name": "Honza Čapek",
+      "url": "https://www.honzacapek.cz/",
+      "description": "Kampaně, které získají pozornost. Brandová strategie převedená do praxe. Chytré využití AI a vibe codingu v marketingu.",
+      "publisher": {
+        "@id": "https://www.honzacapek.cz/#person"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-efektivni-marketingova-komunikace",
+      "name": "Efektivní marketingová komunikace",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-brandova-strategie",
+      "name": "Brandová strategie od workshopu k realizaci",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-kreativni-koncept-content",
+      "name": "Kreativní koncept & content",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-rizeni-dodavatelu-agentur",
+      "name": "Řízení externích dodavatelů a agentur",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-vyzkumy-data-vyhodnoceni",
+      "name": "Výzkumy, data a vyhodnocení",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.honzacapek.cz/#service-ai-vibe-coding-marketing",
+      "name": "AI a vibe coding v marketingu",
+      "provider": {
+        "@id": "https://www.honzacapek.cz/#person"
+      },
+      "areaServed": "Czech Republic"
+    }
   ]
 }
 </script>
