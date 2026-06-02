@@ -58,6 +58,16 @@ Nepřidávej React, Next.js, Tailwind, build proces, bundlery ani externí kniho
 - Kontaktní e-mail webu je:
   ahoj@honzacapek.cz
 
+## Technické kontroly
+
+Technické kontroly dělej přiměřeně podle typu změny, ne automaticky po každé malé úpravě.
+
+- Při úpravách `<head>` zkontroluj metadata, canonical URL, Open Graph / Twitter metadata, favicony, manifest, theme-color a JSON-LD.
+- Při úpravách obsahu osoby, služeb nebo hlavního popisu webu zkontroluj, že odpovídají i JSON-LD typy `Person`, `WebSite` a `Service`.
+- Při úpravách obrázků zkontroluj cesty k souborům, WebP/fallback, `width`, `height`, `loading`, `decoding` a dopad na LCP. Hero obrázky nenastavuj jako `loading="lazy"`.
+- Při úpravách navigace, klikacích prvků nebo `script.js` zkontroluj GTM/GA4 skripty, `noscript` fallback a datové atributy `data-analytics`, `data-menu-item`, `data-case-study`.
+- Při běžných textových změnách nedělej kompletní technický audit, jen ověř, že se nerozbil layout nebo HTML struktura.
+
 ## Git workflow
 
 Po každé úpravě:
