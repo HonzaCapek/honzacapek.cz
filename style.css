@@ -417,7 +417,6 @@ a {
   height: fit-content;
   padding: 0.38rem 0.62rem;
   background: var(--color-orange);
-  border: 2px solid var(--color-black);
   color: var(--color-black);
   font-size: 0.72rem;
   font-weight: 950;
