@@ -303,9 +303,10 @@ a {
 
 .proof-card {
   display: flex;
-  min-height: 128px;
+  min-height: 190px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   padding: 1.1rem;
   background: var(--color-white);
   border: 1px solid var(--color-line);
@@ -315,8 +316,8 @@ a {
 
 .proof-card:hover {
   border-color: rgba(31, 72, 255, 0.55);
-  box-shadow: var(--shadow-blue);
-  transform: translate(-3px, -3px);
+  box-shadow: 0 18px 48px rgba(31, 72, 255, 0.18);
+  transform: translateY(-3px);
 }
 
 .proof-card-accent {
@@ -325,7 +326,6 @@ a {
 
 .proof-card strong {
   display: block;
-  min-height: 2em;
   color: var(--color-black);
   font-size: clamp(1.8rem, 3.6vw, 3.35rem);
   font-weight: 950;
@@ -335,7 +335,6 @@ a {
 .proof-card span {
   display: block;
   max-width: 260px;
-  margin-top: 0.75rem;
   color: var(--color-muted);
   font-weight: 800;
   line-height: 1.22;
@@ -702,7 +701,7 @@ a {
   }
 
   .proof-card {
-    min-height: 112px;
+    min-height: 150px;
   }
 
   .work-card,
